@@ -1,0 +1,22 @@
+{
+    "name": "suxiaolin/yii2-sweet-alert",
+    "description": "sweet alert for yii2 integration",
+    "type": "widget",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "suxiaolin",
+            "email": "suxiaolin@mail.com"
+        }
+    ],
+    "require": {
+        "php":">=5.4.0",
+        "yiisoft/yii2": "~2",
+        "bower-asset/sweetalert" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "suxiaolin\\sweetalert\\": "."
+        }
+    }
+}
